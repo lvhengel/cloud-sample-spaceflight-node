@@ -11,8 +11,10 @@ In this exercise we will learn to set up our local development environment and c
 ## Exercise description
 
 ### Already done for the TechEd session. Proceed to Step 4 of this exercise.
+
 1. Open the command line terminal and install cds command line tool.
 ```
+npm config set @sap:registry https://npm.sap.com
 npm i -g @sap/cds
 ```
 Now, the following command should print the version information
