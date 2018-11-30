@@ -29,21 +29,10 @@ npm i -g @sap/generator-cds
 This helps us to use the command, `cds new`, in the next step to create a new project.
 
 ### Already done for the TechEd session. Proceed to Step 4 of this exercise.
-3. Execute `cds new` command to create a new project by providing the project name as a parameter. Here, let us use `cloud-sample-spaceflight-node` as the project name.
+3. Execute `cds-gen init` command to create a new project by providing the project name as a parameter. Here, let us use `cloud-sample-spaceflight-node` as the project name.
 ```
-cds new cloud-sample-spaceflight-node
+cds-gen init cloud-sample-spaceflight-node --modules srv,db
 ```
-We will be prompted to select the modules that the project will require. Select the following modules: database and service modules by clicking arrow keys and space bar as shown below.
-
-![Alt text](./images/db_srv.png?raw=true)
-
-Then choose Node.js under the category "Select the technology of the srv module".
-
-![Alt text](./images/nodejs.png?raw=true)
-
-The project files being created can be seen.
-
-![Alt text](./images/project.png?raw=true)
 
 4. Goto [SAP Development tools page](https://tools.hana.ondemand.com/#cloud) and scroll down to the end to download the CDS extension as shown. Click on the .vsix file and the file download will begin. This may trigger the license agreement popup if you are accessing the page for the first time. Click the `I Have Read And Agree` button and proceed. In case the downloaded file is a zip archive, extract it.
 
